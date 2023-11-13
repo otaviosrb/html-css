@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 5vh;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    word-break: keep-all;
+    font-size: 10vh;
+    width: max-content;
+}
+
+header p {
+    position: absolute;
+    padding: 5px;
+    font-family: var(--fonte1);
+    font-size: 16px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+body {
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+pre {
+    font-family: var(--fonte3);
+    font-size: 3vw;
+    padding: 60px 30px;
+}
+
+.fundo {
+    background-color: white;
+}
+
+#img1 {
+    background-image: url(../imagens/background001.jpg);
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.548);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin: -20px;
+}
+
+#img2 {
+    background-image: url(../imagens/background002.jpg);
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.548);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: -20px;
+}
+
+.fundoimg {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 10px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ 
+a:hover {
+    text-decoration: underline;
+    font-size: 17px;
+    transition-duration: 0.3s;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+.negrito {
+    font-weight: bold;
+}
